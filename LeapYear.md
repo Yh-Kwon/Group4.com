@@ -1,9 +1,3 @@
-package may_13;
-
-import java.util.Scanner;
-
-public class Ex02 {
-
 	public static void main(String[] args) {
 		
 		//윤년은 특정 년도를 4로 나누어 떨어지지만, 100으로 나누어 떨어지지 않음 혹은 400으로 나누어 떨어짐
