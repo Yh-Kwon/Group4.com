@@ -20,7 +20,7 @@
 
          .nav{
                list-style: none; 
-               background-color: purple; 
+               background-color:rgb(82, 8, 82); 
                float:left; 
                width:150px;
                line-height: 40px;
@@ -42,31 +42,58 @@
 
          }
 
-         h1,h2{
-             color: white;
-         }
-         h3{
-             color: white;
-         }
+        
          a {
              color: gold;
          }
 
          p {
-             color:purple
+             color:rgb(82, 8, 82)
          }
 
          .banner{
              background-image: url("img/okada.jpg");
+             background-size: cover;
+             color: white;
              width: auto;
-             height: 600px;
+             height: 750px;
+             padding: 20px;
+             /* padding-top: px; */
+         }
+         
+         .header {
+             height: 35px;
+             /* margin-top: 30px; */
+             background-color: rgb(82, 8, 82);
+             text-align: center;
+             font-size: 23px;
+             color: gold;
          }
         
+        .side {
+            float: right;
+            border: 1px solid blue;
+            margin: 10px;
+            padding: 10px;
+            font-family: 나눔고딕;
+            font-size: 16px;
+            color: #125575;
+        }
+
+        .contents {
+            min-height: 300px;
+            padding: 50px;
+            font-size: 18px;
+        }
+
+        .float {
+            text-align: center;
+        }
       </style>   
    
    </head>
    <body> 
-      <nav style="height: 40px; max-width: 2000px; background-color:purple;">
+      <nav style="height: 40px; max-width: 2000px; background-color:rgb(82, 8, 82);">
          <ul style="padding-left: 500px;">
             <li class="nav"><a href="page1.html(링크주소)" class="navLink">YM's</a></li>
             <li class="nav"><a href="page2.html" class="navLink">HJ's</a></li>
@@ -86,33 +113,34 @@
     <div class=banner>
         
     <p><h1>Welcome to OKADA MANILA</h1></p>
-    <p><h2>오카다에 오신 것을 환영합니다.</h2></p>
+    <div style="font-size: 20px">오카다에 오신 것을 환영합니다.</div>
     </div>
 
-    <div 두 번째 영역>  
-     <h3><b><a href="hotel.html">HOTEL</a> /<a href="casino"> CASINO</a> /<a href="dining"> DINING </a> /<a href="entertainment"> ENTERTAINMENT </a></b></h3>
+    <div class=header>  
+     <b><a href="hotel.html">HOTEL</a> /<a href="casino"> CASINO</a> /<a href="dining"> DINING </a> /<a href="entertainment"> ENTERTAINMENT </a></b>
     </div>
 
-    <div 세 번째 영역>
+    <div class="side">
         <p>마닐라의 대표 랜드마크</p>
         
     </div>
 
-    <div 네 번째 영역>
+    <div class="contents">
         <p>
             마닐라 대표 랜드마크, OKADA<br/>
             필리핀 최고의, 최대 규모의 휴양 시설에서 낭만을 즐겨보십시오.
-            <!-- <img src="img/okada.jpg" height="auto"> -->
+            <!-- <img src="img/분수.jpg" width="500px" > -->
         </p>
     </div>
 
-    <p>
-        <a href="hotel.html">OKADA</a>
-    </p>
+    
 
-    <div 다섯 번째 영역>
+    <div class="float">
         <img src="img/로고.png">
-        <p>까꿍</p>
+        <p>
+            <a href="hotel.html">OKADA</a>
+        </p>
+        
     </div>
 </body>
 </html>
